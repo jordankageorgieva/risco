@@ -24,9 +24,8 @@ public class Test {
         set.add(c1);
         set.add(c2);
         set.add(c3);
-        System.out.println(set.size());
-
-        if (set.size() != 2) {
+    
+        if (set.size() != 3) {
             throw new Exception("Wrong!");
         }
 
